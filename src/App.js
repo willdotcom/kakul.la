@@ -460,7 +460,7 @@ function App() {
       setStillListening(true);
       SpeechRecognition.startListening({
         continuous: false,
-        language: 'en'
+        language: 'kr'
       });
     }
   }
@@ -493,7 +493,7 @@ function App() {
       resetTranscript();
       SpeechRecognition.startListening({
         continuous: false,
-        language: 'en'
+        language: 'kr'
       });
     }
   }, [listening])
